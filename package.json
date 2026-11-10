@@ -1,0 +1,18 @@
+{
+  "name": "vex-tickets",
+  "version": "1.0.0",
+  "description": "VEX TICKET - a Discord ticket bot with category tickets, urgency status, and a staff claim leaderboard.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "license": "MIT"
+}
